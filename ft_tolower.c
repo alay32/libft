@@ -18,12 +18,3 @@ int	ft_tolower(int c)
 		return (c + 32);
 	return (c);
 }
-/*int	main(void)
- {
-		char a;
-		printf("Saisir : ");
-		scanf("%c", &a);
-
-		printf("%c", ft_tolower(a));
-		return (0);
- }*/

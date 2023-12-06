@@ -27,15 +27,3 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (str);
 }
-/*int	main(void)
- {
-		char	*str;
-		int		to_find;
-		char	*result;
-
-		str = "hello world";
-		to_find = '\0';
-		result = ft_strchr(str, to_find);
-		printf("%p", result);
-		return (0);
- }*/

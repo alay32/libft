@@ -18,17 +18,3 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
-/*int	main(void)
- {
-		int a;
-
-		printf("saisir :");
-		scanf("%d", &a);
-
-		if (ft_isdigit(a))
-			printf("It's digit");
-		else
-			printf("Not digit");
-
-		return (0);
- }*/

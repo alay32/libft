@@ -32,18 +32,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[j] = '\0';
 	return (dlen + slen);
 }
-/*int	main(void)
- {
-		char destination[7] = "Hello";
-		const char *source = "world!";
-		size_t maxSize = sizeof(destination);
-
-		printf("Chaîne de destination avant concaténation : %s\n", destination);
-
-		size_t result = ft_strlcat(destination, source, maxSize);
-
-		printf("Chaîne de destination après concaténation : %s\n", destination);
-		printf("Longueur totale de la chaîne concaténée : %zu\n", result);
-
-		return (0);
- }*/

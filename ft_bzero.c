@@ -16,15 +16,3 @@ void	ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, 0, n);
 }
-/*int	main(void)
- {
-		char mystring[] = "hello world";
-
-		size_t lengh = strlen(mystring);
-
-		ft_bzero(mystring, lengh);
-
-		printf("mystring : %s", mystring);
-
-		return (0);
- } */

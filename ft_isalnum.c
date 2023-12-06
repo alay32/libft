@@ -18,36 +18,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-/*int	main(void)
- {
-		char	ch;
-
-		ch = 'A';
-		if (ft_isalnum(ch))
-		{
-			printf("%c is alphanumeric.\n", ch);
-		}
-		else
-		{
-			printf("%c is not alphanumeric.\n", ch);
-		}
-		ch = '7';
-		if (ft_isalnum(ch))
-		{
-			printf("%c is alphanumeric.\n", ch);
-		}
-		else
-		{
-			printf("%c is not alphanumeric.\n", ch);
-		}
-		ch = '*';
-		if (ft_isalnum(ch))
-		{
-			printf("%c is alphanumeric.\n", ch);
-		}
-		else
-		{
-			printf("%c is not alphanumeric.\n", ch);
-		}
-		return (0);
- }*/

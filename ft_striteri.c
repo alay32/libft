@@ -27,13 +27,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-/*void    foul(unsigned int i, char *c)
-{
-	printf("index : %u , Caractere : %c\n", i, *c);
-}
-int	main(void)
-{
-	char mystring[] = "Hello World!";
-	ft_striteri(mystring, foul);
-	return (0);
-}*/

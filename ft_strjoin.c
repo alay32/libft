@@ -28,15 +28,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(join, s2, (size + 1));
 	return (join);
 }
-/*int main() {
-	// Example usage
-	char s1[] = "Hello, ";
-	char s2[] = "world!";
-	char *result = ft_strjoin(s1, s2);
-
-	printf("%s\n", result);
-
-	free(result);
-
-	return (0);
-}*/

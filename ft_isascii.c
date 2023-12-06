@@ -18,15 +18,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-/*int	main(void)
- {
-		int	a;
-
-		printf("saisir :");
-		scanf("%d", &a);
-		if (ft_isascii(a))
-			printf("It's ascii");
-		else
-			printf("Not ascii");
-		return (0);
- }*/

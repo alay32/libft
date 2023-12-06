@@ -18,17 +18,3 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-/*int	main(void)
- {
-		int n;
-
-		printf("saisir : ");
-		scanf("%d", &n);
-
-		if (ft_isprint(n))
-			printf("It's printable");
-		else
-			printf("Not printable");
-
-		return (0);
- }*/

@@ -18,15 +18,3 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-/*int	main(void)
- {
-		char c;
-		printf("saisir un caractere : ");
-		scanf("%c", &c);
-		if (ft_isalpha(c))
-			printf("c'est un alphabet");
-		else
-			printf("maxi caractere");
-
-		return (0);
- }*/

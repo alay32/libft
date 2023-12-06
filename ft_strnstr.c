@@ -33,24 +33,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-/*int	main(void)
- {
-		const char *haystack = "Bonjour, comment ça va ?";
-		const char *needle = "comment";
-		size_t len = 20;
-
-		char *result = ft_strnstr(haystack, needle, len);
-
-		if (result != NULL)
-		{
-			printf("La sous-chaîne '%s' a été trouvée à l'indice
-				%ld dans la chaîne.\n", needle, result - haystack);
-		}
-		else
-		{
-			printf("La sous-chaîne '%s' n'a pas été trouvée dans la chaîne.\n",
-				needle);
-		}
-
-		return (0);
- }*/

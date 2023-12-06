@@ -28,13 +28,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-/*int	main(void)
- {
-		char *buffer;
-		ft_memset(&buffer, 57, 1);
-		ft_memset((char *)&buffer + 1, 5, 1);
-
-		printf("buffer after memset : %s\n", buffer);
-
-		return (0);
- }*/

@@ -32,13 +32,3 @@ void	ft_putnbr_fd(int n, int fd)
 	ft_putnbr_fd(n / 10, fd);
 	ft_putchar_fd(n % 10 + '0', fd);
 }
-/*int main()
-{
-	int number = 2147483647;
-    int fd = 1; // File descriptor 1 represents standard output (stdout)
-
-    ft_putnbr_fd(number, fd);
-    ft_putchar_fd('\n', fd); // Print a newline for better output formatting
-
-    return (0);
-}*/

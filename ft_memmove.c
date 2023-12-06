@@ -32,15 +32,3 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-/*int    main(void)
- {
-		char source[] = "hello world!";
-		char destination[] = "hola";
-
-		ft_memmove(destination, source, 5);
-
-		printf("source : %s\n", source);
-		printf("destination : %s\n", destination);
-
-		return (0);
- }*/

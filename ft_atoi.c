@@ -36,10 +36,3 @@ int	ft_atoi(const char *str)
 	}
 	return (r * n);
 }
-/*int	main(void) {
-	const char *str = "   -12345";
-	int result = ft_atoi(str);
-	printf("La conversion de la chaîne \"%s\" en entier donne : %d\n", str,
-		result);
-	return (0);
-}*/

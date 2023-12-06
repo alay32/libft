@@ -34,16 +34,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(str, &s1[start], end - start + 2);
 	return (str);
 }
-/*int main() {
-	const char *s1 = " Hello, WordH ";
-	const char *set = " H";
-
-	char *trimmed = ft_strtrim(s1, set);
-
-	printf("Chaîne d'origine : '%s'\n", s1);
-	printf("Chaîne après trim : '%s'\n", trimmed);
-
-	free(trimmed);
-
-	return (0);
-}*/

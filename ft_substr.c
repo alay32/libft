@@ -30,20 +30,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(substr, &s[start], (len + 1));
 	return (substr);
 }
-/*int main() {
-	const char *source = "Hello, World!";
-	int start_index = 7;
-	int substring_length = 5;
-
-	char *result = ft_substr(source, start_index, substring_length);
-
-	if (result != NULL) {
-		printf("Original: %s\n", source);
-		printf("Substring: %s\n", result);
-		free(result); // N'oubliez pas de libérer la mémoire allouée
-	} else {
-		printf("Invalid input or substring out of bounds.\n");
-	}
-
-	return (0);
-}*/

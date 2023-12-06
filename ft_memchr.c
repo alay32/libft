@@ -22,20 +22,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*int	main(void)
- {
-		char buffer[] = "Hello, orld!";
-		char *result = ft_memchr(buffer, 'W', strlen(buffer));
-
-		if (result != NULL)
-		{
-			printf("Première occurrence de 'W' trouvée à l'indice %ld\n", result
-				- buffer);
-		}
-		else
-		{
-			printf("Aucune occurrence de 'W' trouvée.\n");
-		}
-
-		return (0);
- }*/
